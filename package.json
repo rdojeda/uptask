@@ -1,0 +1,26 @@
+{
+  "name": "uptasknodejs",
+  "version": "1.0.0",
+  "description": "Proyecto UpTask con NodeJS y MVC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdojeda/uptask.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MVC"
+  ],
+  "author": "ojedaweb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdojeda/uptask/issues"
+  },
+  "homepage": "https://github.com/rdojeda/uptask#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
