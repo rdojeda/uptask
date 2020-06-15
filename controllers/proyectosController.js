@@ -1,7 +1,4 @@
 exports.proyectosHome = (req, res) => {
-    res.send('Index');
+    res.render('index');
 }
 
-exports.proyectosNosotros = (req, res) => {
-    res.send('Nosotros');
-}
