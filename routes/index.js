@@ -10,6 +10,8 @@ module.exports = () => {
     router.get('/', proyectosController.proyectosHome);
     //ruta Nuevo Proyecto
     router.get('/nuevo-proyecto', proyectosController.formularioProyecto);
+    router.post('/nuevo-proyecto', proyectosController.nuevoProyecto);
+    
     return router;
 }
 

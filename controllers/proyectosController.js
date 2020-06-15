@@ -10,3 +10,7 @@ exports.formularioProyecto = (req, res) => {
     });
 }
 
+exports.nuevoProyecto = (req, res) => {
+    res.send('Enviaste el Formulario');
+    
+}
